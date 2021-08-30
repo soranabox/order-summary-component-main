@@ -1,0 +1,21 @@
+.background{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border-radius: 15px;
+}
+.card .card-img-top{
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
